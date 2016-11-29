@@ -1,0 +1,569 @@
+
+#wrapper{
+	width:90vw;
+	margin: 0 auto; 
+}
+
+	header{
+		background-color: #ffffff;
+		display: flex;
+		height: 80px;
+	}
+
+		#logo{
+			width: 30%;
+			background-image:url(../img/logo.png);
+			background-repeat:no-repeat;
+			background-position:left;
+			flex: 2;
+			margin-right: 25px;
+			background-size: 100%;
+		}		
+		
+		nav{
+			color: #7d8c9b;
+			text-transform: uppercase;
+
+
+		}
+			nav ul{
+				display: flex;
+				flex-direction: row;
+			}
+			
+			li{
+				list-style:none;
+				margin: 25px 20px 0px;
+				padding-bottom: 30px;
+
+			}
+			
+			li:hover{
+				border-bottom: 4px solid orange;
+			}
+
+/*main*/
+#name{
+	text-align: center;
+	background-color: #f7f5e6;
+	font-family: ArialNarrow, Arial, sans-serif;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+#slider{
+	text-align: center;
+	background-image: url(../img/sea.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 50em;
+	width: 90vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#sliderh2{
+	margin-top: 2rem;
+	font-family: ArialNarrow, Arial, sans-serif;
+	font-size: 30px;
+	color: white;
+	padding: 0.5rem;
+	height: 4rem;
+}
+
+#sliderh3{
+	font-family: ArialNarrow, Arial, sans-serif;
+	font-size: 42px;
+	text-transform: uppercase;
+	color: white;
+	padding: 0.5rem;
+	height: 4rem;
+}
+
+#sliderh4{
+	font-family: ArialNarrow, Arial, sans-serif;
+	font-size: 19px;
+	color: white;
+	width: 50vw;
+	padding: 0.5rem;
+
+}
+
+button{
+	background: #1e5799;
+	background: -moz-linear-gradient(top, #1e5799 0%, #2ac3e5 0%, #207cca 100%, #1688bf 100%);
+	background: -webkit-linear-gradient(top, #1e5799 0%,#2ac3e5 0%,#207cca 100%,#1688bf 100%);
+	background: linear-gradient(to bottom, #1e5799 0%,#2ac3e5 0%,#207cca 100%,#1688bf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1688bf',GradientType=0 );
+	height: 3rem;
+	width: 10rem;
+	border: 1px solid #40d0eb;
+	border-radius: 7px;
+	color: white;
+	
+}
+
+
+#nameschadule{
+	display: flex;
+	align-items: center;
+	font-family: ArialNarrow, Arial, sans-serif;
+	font-size: 32px;
+	text-transform: uppercase;
+	margin-top: -177px;
+	height: 157px;
+	padding-top: 20px;
+}
+
+#nameschadule p{
+	margin-left: 90px;
+	margin-right: 45px;
+}
+
+#categories {
+	width: 25rem;
+	height: 4rem;
+	border-radius: 0.25rem;
+	border: 1px solid grey;
+}
+
+#cards{
+	height: 770px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+	
+				.blue-card{
+					background-color: #058cff;
+					border-radius: 0.39vw;
+					height: 2.42vw;
+					width: 11.85vw;
+					text-align: center;
+					line-height: 2.34vw;
+					color: #fefefe;
+					margin-top: 4.29vw;
+					margin-left: 6.24vw;
+					font-family: Consolas;
+					font-size: 1vw;
+					font-weight: bold;
+					padding-left: 0.78vw;
+				}
+				.lil-card{
+						background-color: #db28b3;
+						border-radius: 0.39vw;
+						height: 2.42vw;
+						width: 11.85vw;
+						text-align: center;
+						line-height: 2.34vw;
+						color: #fefefe;
+						margin-top: 4.29vw;
+						margin-left: 6.24vw;
+						font-family: Consolas;
+						font-size:1vw;
+						font-weight: bold;
+						padding-left: 0.78vw;
+					}
+				.sea-card{
+						background-color: #02828e;
+						border-radius: 0.39vw;
+						height: 2.42vw;
+						width: 11.85vw;
+						text-align: center;
+						line-height: 2.34vw;
+						color: #fefefe;
+						margin-top: 2.34vw;
+						margin-left:6.24vw;
+						font-family: Consolas;
+						font-size: 1vw;
+						font-weight: bold;
+						padding-left: 0.78vw;
+					}	
+				.light{
+						background-color: #ffffff;
+						border-radius: 0.39vw;
+						height: 2.42vw;
+						width: 11.85vw;
+						text-align: center;
+						line-height: 2.34vw;
+						color: #6a7580;
+						margin-top: 2.34vw;
+						margin-left: 6.24vw;
+						font-family: Consolas;
+						font-size: 1vw;
+						font-weight: bold;
+						padding-left: 0.78vw;
+					}	
+					
+					
+				.card-name{
+					font-family:'Arial Narrow Bold', arial;
+					font-size: 4.29vw;
+					color:#fefefe;
+					width: 17.94vw;
+					margin-left: 7.02vw;
+					margin-top: 2.34vw;
+				}
+				
+				.card-name3{
+					font-family:'Arial Narrow Bold', arial;
+					font-size: 3.12vw;
+					color:#fefefe;
+					width: 26.13vw;
+					margin-left: 7.02vw;
+				margin-top:1.17vw;;}
+
+				.card-name4{
+					font-family:'Arial Narrow Bold', arial;
+					font-size: 3.12vw;
+					color:#6a7580;
+					width: 26.13vw;
+					margin-left: 7.02vw;
+				margin-top:1.17vw;;}
+				
+				.card-info{
+					font-family:'Arial Narrow';
+					font-size: 0.94vw;
+					color:#fefefe;
+					width: 17.94vw;
+					margin-left: 7.02vw;
+					margin-top: 2.34vw;
+					margin-bottom: 4vw;
+				}
+				.card-info3{
+					font-family:'Arial Narrow';
+					font-size: 0.94vw;
+					color:#fefefe;
+					width: 17.94vw;
+					margin-left: 7.02vw;
+					margin-top: 1.56vw;
+					margin-bottom: 3.9vw;
+				}
+				
+				.card-info4{
+					font-family:'Arial Narrow';
+					font-size: 0.94vw;
+					color:#6a7580;
+					width: 17.94vw;
+					margin-left: 7.02vw;
+					margin-top: 1.56vw;
+					margin-bottom: 3.9vw;
+				}
+				.buy{
+				position: relative;
+				width: 10rem;
+
+			}
+					.romb{
+							background: #1e5799;
+							background: -moz-linear-gradient(-45deg, #1e5799 0%, #2ac3e5 0%, #207cca 100%, #1688bf 100%);
+							background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2ac3e5 0%,#207cca 100%,#1688bf 100%);
+							background: linear-gradient(135deg, #1e5799 0%,#2ac3e5 0%,#207cca 100%,#1688bf 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1688bf',GradientType=1 );
+							height: 2.32rem;
+							width: 2.32rem;
+							border: 1px solid #40d0eb;
+							border-bottom: none;
+							border-left: none;
+							border-radius: 9px;
+							color: white;
+							transform: rotate(45deg);
+							position: absolute;
+							right: -13px;
+							top: 5px;
+						}
+				.price{
+					margin-top: 25.14vw;
+					margin-right: 4.29vw;
+					background-color: #f5c600;
+					border-radius: 0.23vw;
+					width: 8.19vw;
+					text-align: center;
+					align-self: flex-end;
+					font-family: 'Arial Narrow Bold';
+					font-size: 1.56vw;
+				}
+	
+
+	.p1{
+		background-image: url(../img/baby.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 510px;
+		display: flex;
+		flex-direction: column;
+		width: 45vw;
+	}
+	.cards1row{
+		display: flex;
+		flex-direction: row;
+		margin: 5rem 3rem 1rem 4rem;
+	}
+			.ccard{
+				background-color: #058cff;
+				border-radius: 0.25rem;
+				width: 12rem;
+				margin: 0rem 20rem 0rem 4rem;
+				text-align: center;
+				color: white;
+				text-transform:uppercase;
+				font-size: bold;
+			}
+			
+			
+
+		.cost{
+			background-color: #f5c600;
+			width: 4rem;
+			border-radius: 0.25rem;
+			self-align: right;
+		}
+	
+	.p2{
+		background-image: url(../img/ball.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 510px;
+		width: 45vw;
+	}
+	
+	.p3{
+		background-image: url(../img/women.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 260px;
+		width: 45vw;
+	}
+	
+	.p4{
+		background-image: url(../img/yog.jpg);	
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 260px;
+		width: 45vw;
+	}
+	
+#schadule{
+	display: flex;
+	height: 900px;
+	width: 90vw;
+	flex-wrap: wrap;
+	flex-direction: row;
+	
+}
+
+	
+	.c1{
+	
+		background-image: url(../img/women.jpg);
+		background-repeat: no-repeat;
+		height: 150px;
+		width: 30%;
+	}
+	.c2{
+	
+		height: 150px;
+		width: 70%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		position: relative;
+	}
+	
+		.em p{
+			margin:0px;
+			flex-grow:1;
+		}
+		
+		.timetrainer{
+			flex:1;
+			display: flex;
+			flex-direction: column;
+			border: 1px solid #dadddf;
+			
+		}
+		
+			.time{
+				background-color: #eeeeee;
+				flex: 1;
+				height: 100%;
+			}
+
+			.trainer{
+				flex: 2;
+				text-align: center;
+				
+			}
+				.trainername{
+					position: absolute;
+					width: 40vw;
+					background-image: url(../img/nametr.jpg);
+					bottom: 32px;
+					right: 250px;
+					height: 30px;
+					border: 2px solid #1a96c9;
+					border-radius: 7px;
+				}
+		
+	.c3{
+
+		background-image: url(../img/baby.jpg);
+		background-repeat: no-repeat;
+		height: 200px;
+		width: 30%;
+	}
+	.c4{
+
+		height: 200px;
+		width: 70%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.c5{
+
+		background-image: url(../img/ball.jpg);
+		background-repeat: no-repeat;
+		height: 320px;
+		width: 30%;
+	}
+	.c6{
+
+		height: 320px;
+		width: 70%;	
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.c7{
+
+		background-image: url(../img/yog.jpg);
+		background-repeat: no-repeat;
+		height: 145px;
+		width: 30%;
+	}
+	.c8{
+
+		height: 145px;
+		width: 70%;		
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+#advertising{
+	display: flex;
+	height: 33rem;
+	background-color: #eeeeee;
+}
+		#advtext{
+			flex: 3;
+		}
+		
+		#textcap{
+			margin-left: 6rem;
+			margin-top: 1rem;
+			margin-right: 22rem;
+			color:#5a6772;
+		}
+
+				h2{
+					text-transform:uppercase;
+					font-size: 3rem;
+				}
+		
+		#advimg{
+			flex:2;
+			background-image: url(../img/cap.png);
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}	
+
+footer{
+	background-color: #1b3144;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	wrap: no-wrap;
+	align-items: center;
+	padding: 20px 10px;
+}
+		#ftel{
+			background-image: url(../img/phone.jpg);
+			flex:1;
+			background-repeat: no-repeat;
+		}
+		#fnum{
+			flex:3;
+		}
+		#fc{
+			flex:4;
+		}
+			#fc p{
+				margin: 0px;
+			}
+			
+		#fcircles{
+			flex:3;
+			display: flex;
+			height: 4rem;
+			flex-direction: row;
+		}
+			
+			#instagram{
+				background-image: url(../img/photo.gif);
+				background-repeat: no-repeat;
+				flex: 1;
+			}
+			
+			#vkontakte{
+				background-image: url(../img/vk.png);
+				background-repeat: no-repeat;				
+				flex: 1;
+			}
+			
+			#facebook{
+				background-image: url(../img/fb.png);
+				background-repeat: no-repeat;
+				flex: 1;
+			}
+		
+		#design{
+			flex:3;
+		}
+		
+		#design p{
+			margin: 0px;
+		}
+
+@media (min-width: 940px) and (max-width: 1139px){
+	
+	#advertising{
+		display: none;
+	}
+	#slider {
+		display: none;
+	}
+}	
+
+@media (min-width: 0px) and (max-width: 939px){
+	#schadule {
+		display: none;
+	}
+	
+	#advertising{
+		display: none;
+	}
+	
+	#slider {
+		display: none;
+	}
+	
+	#nameschadule{
+		display: none;
+	}
+}		
